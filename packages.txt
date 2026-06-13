@@ -1,0 +1,7 @@
+libgl1
+libglib2.0-0t64
+libgomp1
+libsrtp2-1
+libopus0
+libgles2
+libegl1

@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data – never commit raw dataset (too large)
+data/
+
+# Model weights – large binary files; use Git LFS or cloud storage instead
+models/*.h5
+models/*.keras
+models/*.pb
+models/*.tflite
+models/*.onnx
+models/training_history.json
+models/confusion_matrix.png
+models/training_curves.png
+
+# Keep the models directory itself
+!models/.gitkeep
+!models/label_map.json
+
+# TensorBoard logs
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Kaggle
+kaggle.json
+*.zip
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment variables
+.env
+.claude/
