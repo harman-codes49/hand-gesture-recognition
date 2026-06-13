@@ -243,6 +243,8 @@ def sidebar():
         st.subheader("🖐️ Gesture Classes")
         for name, emoji in GESTURE_EMOJIS_LOCAL.items():
             st.write(f"{emoji} {name}")
+        st.divider()
+        st.caption("Designed & developed by **Harman**")
 
 
 # ── Tabs ───────────────────────────────────────────────────────────────────────
